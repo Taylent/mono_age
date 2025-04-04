@@ -66,7 +66,9 @@ We use the data from the Gene Expression Omnibus (GEO) database:
 - cytoTRACE==1.1
 - lme4==1.1
 
+
 - Python==3.11
+
 
 ## Run the code
 
@@ -77,19 +79,22 @@ We use the data from the Gene Expression Omnibus (GEO) database:
 3. **Cell cycle prediction**
    - Run `CellCycle.R`.
 
-1. **Monocyte clustered**
+
+4. **Monocyte clustered**
    - Run `mono_seurat.R`.
-2. **AUCell analysis**
+5. **AUCell analysis**
    - Run `AUCell.R`.
-3. **cytoTRACE**
+6. **cytoTRACE**
    - Run `CytoTRACE.R`.
 
-1. **Data preparation**
+
+7. **Data preparation**
    - Run `Part2.R` to output the average expression of each gene per sample.
    - If need to remove the batch effect of gene expression using Seurat v3’s canonical correlation analysis (CCA) before MELR, run `Seurat_CCA.R`.
-2. **MELR**
+8. **MELR**
    - Run `lim4.R`.
 
-4. Construction of the immune age prediction model
+
+9. **Construction of the immune age prediction model**
    - Run `immune_age.py`.
 
