@@ -1,7 +1,7 @@
 # README
 
 ## Code for “The immunological age prediction of monocytes indicates that gestational diabetes mellitus accelerates the aging of monocytes in offspring”
-
+## Please cite "Zhang, Y., Guo, R., Yin, M. et al. The immunological age prediction of monocytes indicates that gestational diabetes mellitus accelerates the aging of monocytes in offspring. Immun Ageing 22, 18 (2025). https://doi.org/10.1186/s12979-025-00513-z"
 
 ## Description
 
